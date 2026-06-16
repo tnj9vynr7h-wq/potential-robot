@@ -1,0 +1,17 @@
+<div id="products"></div>
+
+<button onclick="showProducts()">
+  Show Products
+</button>
+
+<script>
+function showProducts() {
+  document.getElementById("products").innerHTML = `
+    <ul>
+      <li>Product 1</li>
+      <li>Product 2</li>
+      <li>Product 3</li>
+    </ul>
+  `;
+}
+</script>
